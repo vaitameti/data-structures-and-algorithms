@@ -72,55 +72,55 @@ namespace data_structures_and_algorithms
 
             TerrainEnum[,] map =
            {
-                {
-                    TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND,
-                    TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,
-                    TerrainEnum.GRASS,TerrainEnum.GRASS
-                },
-                {
-                    TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND,
-                    TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,
-                    TerrainEnum.GRASS,TerrainEnum.GRASS
-                },
-                {
-                    TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND,
-                    TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,
-                    TerrainEnum.GRASS,TerrainEnum.GRASS
-                },
-                {
-                    TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND,
-                    TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,
-                    TerrainEnum.GRASS,TerrainEnum.GRASS
-                },
-                {
-                    TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,
-                    TerrainEnum.SAND,TerrainEnum.WALL,TerrainEnum.WALL,TerrainEnum.WALL,TerrainEnum.WALL
-                },
-                {
-                    TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,
-                    TerrainEnum.SAND,TerrainEnum.WALL,TerrainEnum.WALL,TerrainEnum.SAND,TerrainEnum.SAND
-                },
-                {
-                    TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,
-                    TerrainEnum.SAND,TerrainEnum.WALL,TerrainEnum.WALL,TerrainEnum.SAND,TerrainEnum.SAND
-                },
-                {
-                    TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,
-                    TerrainEnum.SAND,TerrainEnum.WALL,TerrainEnum.WALL,TerrainEnum.SAND,TerrainEnum.SAND
-                },
-                {
-                    TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,
-                TerrainEnum.WALL, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND
-                },
-                {
-                    TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,
-                TerrainEnum.WALL, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND
-                },
-                {
-                    TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,
-                TerrainEnum.WALL, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND
-                }
-            };
+                 {
+                     TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND,
+                     TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,
+                     TerrainEnum.GRASS,TerrainEnum.GRASS
+                 },
+                 {
+                     TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND,
+                     TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,
+                     TerrainEnum.GRASS,TerrainEnum.GRASS
+                 },
+                 {
+                     TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND,
+                     TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,
+                     TerrainEnum.GRASS,TerrainEnum.GRASS
+                 },
+                 {
+                     TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND,
+                     TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,
+                     TerrainEnum.GRASS,TerrainEnum.GRASS
+                 },
+                 {
+                     TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,
+                     TerrainEnum.SAND,TerrainEnum.WALL,TerrainEnum.WALL,TerrainEnum.WALL,TerrainEnum.WALL
+                 },
+                 {
+                     TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,
+                     TerrainEnum.SAND,TerrainEnum.WALL,TerrainEnum.WALL,TerrainEnum.SAND,TerrainEnum.SAND
+                 },
+                 {
+                     TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,
+                     TerrainEnum.SAND,TerrainEnum.WALL,TerrainEnum.WALL,TerrainEnum.SAND,TerrainEnum.SAND
+                 },
+                 {
+                     TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,TerrainEnum.SAND,
+                     TerrainEnum.SAND,TerrainEnum.WALL,TerrainEnum.WALL,TerrainEnum.SAND,TerrainEnum.SAND
+                 },
+                 {
+                     TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,
+                 TerrainEnum.WALL, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND
+                 },
+                 {
+                     TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,
+                 TerrainEnum.WALL, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND
+                 },
+                 {
+                     TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,TerrainEnum.WATER,
+                 TerrainEnum.WALL, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND
+                 }
+             };
 
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             for (int row = 0; row < map.GetLength(0); row++)
@@ -187,6 +187,12 @@ namespace data_structures_and_algorithms
             string[] stringValues = { "Mary", "Marcin", "Ann", "James", "George", "Nicole" };
             SelectionSort.Sort(stringValues);
             Console.WriteLine(string.Join(" | ", stringValues));
+
+            ///Insertion sort 
+
+            int[] integerValuesIns = { -11, 12, -42, 0, 1, 90, 68, 6, -9 };
+            InsertionSort.Sort(integerValuesIns);
+            Console.WriteLine(string.Join(" | ", integerValuesIns));
 
 
             Console.ReadKey();
