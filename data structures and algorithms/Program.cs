@@ -68,10 +68,10 @@ namespace data_structures_and_algorithms
                 Console.WriteLine();
             }
 
-            // create a game map
+            //// create a game map
 
-             TerrainEnum[,] map =
-            {
+            TerrainEnum[,] map =
+           {
                 {
                     TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND, TerrainEnum.SAND,
                     TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,TerrainEnum.GRASS,
@@ -177,6 +177,16 @@ namespace data_structures_and_algorithms
                 }
                 Console.WriteLine();
             }
+
+            ///Selection sort
+
+            int[] integerValues = { -11, 12, -42, 0, 1, 90, 68, 6, -9 };
+            SelectionSort.Sort(integerValues);
+            Console.WriteLine(string.Join(" | ", integerValues));
+
+            string[] stringValues = { "Mary", "Marcin", "Ann", "James", "George", "Nicole" };
+            SelectionSort.Sort(stringValues);
+            Console.WriteLine(string.Join(" | ", stringValues));
 
 
             Console.ReadKey();
